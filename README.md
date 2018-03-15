@@ -1,12 +1,6 @@
 # Claymore-NoFee-Proxy
 
 ## What's this? How it works?
-
-Please refer to [JuicyPasta/Claymore-No-Fee-Proxy](https://github.com/JuicyPasta/Claymore-No-Fee-Proxy/blob/master/README.md)
-
-## Why do you rewrite this tool?
-
-The old one([JuicyPasta/Claymore-No-Fee-Proxy](https://github.com/JuicyPasta/Claymore-No-Fee-Proxy/blob/master/README.md)) is buggy.
 1. It was wrote with python 2.7.
 2. If someone connect to the proxy, but do nothing and close the socket, it may add one thread permanently.
 3. It will cause CPU usage becomes very high.
