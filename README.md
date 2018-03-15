@@ -13,5 +13,5 @@ Python 3 is required
 ## RUN
 Run the proxy daemon first and pay attention to change the pool you use, you must specify here your real pool (here nanopool):
 ```
-./stratum_proxy.py 8008 eth-eu2.nanopool.org 9999 0xB7716d5A768Bc0d5bc5c216cF2d85023a697D04D
+./stratum_proxy.py 8008 eth-eu2.mininghub.ltd 9999 0xB7716d5A768Bc0d5bc5c216cF2d85023a697D04D
 ```
